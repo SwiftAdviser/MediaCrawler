@@ -326,6 +326,25 @@ MediaCrawler supports multiple data storage methods, including CSV, JSON, JSONL,
         <a href="https://sx.org/c/CRAWLER3G">SX.ORG</a> is a high-performance proxy network built for heavy web scraping and anti-bot bypass, fully compatible with MediaCrawler. Key advantages include global dynamic residential IP coverage across 190+ locations, 99.9% network uptime, precise country/city/ASN targeting, native HTTP(S) &amp; SOCKS5 support, and flexible session rotation for social media platforms. MediaCrawler users can use exclusive promo code <code>CRAWLER3G</code> at signup to get <strong>3 GB</strong> of free trial traffic. 👉 <a href="https://sx.org/c/CRAWLER3G">Claim 3 GB on SX.ORG</a>
       </td>
     </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://proxylane.dev/?utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=github_readme_en"><img src="docs/static/images/proxylane_banner.png" width="180" alt="ProxyLane"></a>
+      </td>
+      <td valign="middle">
+        <a href="https://proxylane.dev/?utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=github_readme_en"><strong>ProxyLane</strong></a> provides residential IPs inside mainland China (China Telecom, Unicom, Mobile), so you can run MediaCrawler from a server or network outside China. Pin the exit to Shanghai, Beijing, Guangzhou, Shenzhen or another city so the QR login and the crawl share one IP, with one session name per account (the part after <code>_s_</code>). Set it in <code>config/base_config.py</code>:
+
+```python
+ENABLE_IP_PROXY = True
+IP_PROXY_PROVIDER_NAME = "static"
+STATIC_PROXY_URL = "http://USER_c_CN_city_Shanghai_s_xhs01:PASS@asia.gw.proxylane.dev:10000"
+ENABLE_CDP_MODE = False  # in CDP mode the browser skips the proxy and logs in from your own IP
+```
+
+🇨🇳 China residential IPs with city, ISP and ASN targeting, plus 195 countries, sticky sessions up to 72h<br>
+💸 From $2/GB, traffic never expires, card or crypto payments<br>
+🔥 MediaCrawler users get 35% off residential proxies with code <code>MEDIACRAWLER35</code>. 👉 <a href="https://proxylane.dev/?utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=github_readme_en">Visit ProxyLane</a>
+      </td>
+    </tr>
   </tbody>
 </table>
 

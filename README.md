@@ -384,6 +384,25 @@ MediaCrawler 支持多种数据存储方式，包括 CSV、JSON、JSONL、Excel�
         <a href="https://sx.org/c/CRAWLER3G">SX.ORG</a> 是专为高频数据采集与反爬对抗打造的高性能代理网络，完美适配 MediaCrawler 等多平台抓取工具。核心优势包括全球 190+ 地区真实住宅 IP 池、99.9% 稳定连通率、精准国家/城市及 ASN 运营商定位、全面支持 HTTP(S) 与 SOCKS5 协议，以及针对社交媒体风控优化的智能会话轮换。MediaCrawler 用户使用专属优惠码 <code>CRAWLER3G</code> 注册即可免费领取 <strong>3GB</strong> 优质测试流量。👉 <a href="https://sx.org/c/CRAWLER3G">访问 SX.ORG 领取 3GB 流量</a>
       </td>
     </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://proxylane.dev/?utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=github_readme"><img src="docs/static/images/proxylane_banner.png" width="180" alt="ProxyLane"></a>
+      </td>
+      <td valign="middle">
+        <a href="https://proxylane.dev/?utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=github_readme"><strong>ProxyLane</strong></a> 提供中国住宅 IP（电信、联通、移动），适合在海外服务器或海外网络运行 MediaCrawler。出口可固定到上海、北京、广州、深圳等城市，扫码登录和后续抓取走同一个 IP，每个账号用一个会话名（<code>_s_</code> 后面的部分）。在 <code>config/base_config.py</code> 中设置：
+
+```python
+ENABLE_IP_PROXY = True
+IP_PROXY_PROVIDER_NAME = "static"
+STATIC_PROXY_URL = "http://USER_c_CN_city_Shanghai_s_xhs01:PASS@asia.gw.proxylane.dev:10000"
+ENABLE_CDP_MODE = False  # CDP 模式下浏览器不走代理，登录会用本机 IP
+```
+
+🇨🇳 中国住宅 IP 支持城市、ISP、ASN 定向，另覆盖 195 个国家，粘性会话最长 72 小时<br>
+💸 $2/GB 起，流量永不过期，支持银行卡和加密货币<br>
+🔥 MediaCrawler 用户使用优惠码 <code>MEDIACRAWLER35</code> 可享住宅代理 35% 折扣。👉 <a href="https://proxylane.dev/?utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=github_readme">访问 ProxyLane</a>
+      </td>
+    </tr>
   </tbody>
 </table>
 
