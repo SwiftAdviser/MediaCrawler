@@ -6,7 +6,7 @@ MediaCrawler has a built-in `static` proxy mode, so setup takes 3 steps and no c
 
 ## 1. Get proxy credentials
 
-Sign up at [ProxyLane](https://proxylane.dev/?utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=docs_en) and buy traffic (MediaCrawler users get 35% off with code `MEDIACRAWLER35`). Copy your proxy username and password from the dashboard.
+MediaCrawler users get 3 GB of free traffic: sign up at ProxyLane with code `MEDIACRAWLER3GB` ([claim it here](https://proxylane.dev/redeem?code=MEDIACRAWLER3GB&utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=docs_en)). Then copy your proxy username and password from the dashboard.
 
 ## 2. Edit `config/base_config.py`
 

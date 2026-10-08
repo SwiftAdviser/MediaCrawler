@@ -6,7 +6,7 @@ MediaCrawler 自带 `static` 代理模式，接入只需 3 步，不用改代码
 
 ## 1. 获取代理账号
 
-在 [ProxyLane](https://proxylane.dev/?utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=docs_zh) 注册并购买流量（MediaCrawler 用户使用优惠码 `MEDIACRAWLER35` 可享 35% 折扣），在控制台复制代理用户名和密码。
+MediaCrawler 用户使用优惠码 `MEDIACRAWLER3GB` 在 ProxyLane 注册，即可免费领取 3GB 流量（[一键领取](https://proxylane.dev/redeem?code=MEDIACRAWLER3GB&utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=docs_zh)）。注册后在控制台复制代理用户名和密码。
 
 ## 2. 修改 `config/base_config.py`
 
