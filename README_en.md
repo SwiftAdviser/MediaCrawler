@@ -331,22 +331,7 @@ MediaCrawler supports multiple data storage methods, including CSV, JSON, JSONL,
         <a href="https://proxylane.dev/?utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=github_readme_en"><img src="docs/static/images/proxylane_banner.png" width="180" alt="ProxyLane"></a>
       </td>
       <td valign="middle">
-        <a href="https://proxylane.dev/?utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=github_readme_en"><strong>ProxyLane</strong></a> provides residential IPs inside mainland China (China Telecom, Unicom, Mobile), so you can run MediaCrawler from a server or network outside China. Pin the exit to Shanghai, Beijing, Guangzhou, Shenzhen or another city so the QR login and the crawl share one IP, with one session name per account (the part after <code>_s_</code>). Set it in <code>config/base_config.py</code>:
-
-```python
-ENABLE_IP_PROXY = True
-IP_PROXY_PROVIDER_NAME = "static"
-STATIC_PROXY_URL = (
-    "http://USER_c_CN_city_Shanghai_s_xhs01:PASS"
-    "@asia.gw.proxylane.dev:10000"
-)
-# in CDP mode the browser login skips the proxy
-ENABLE_CDP_MODE = False
-```
-
-🇨🇳 China residential IPs with city, ISP and ASN targeting, plus 195 countries, sticky sessions up to 72h<br>
-💸 From $2/GB, traffic never expires, card or crypto payments<br>
-🔥 MediaCrawler users get 35% off residential proxies with code <code>MEDIACRAWLER35</code>. 👉 <a href="https://proxylane.dev/?utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=github_readme_en">Visit ProxyLane</a>
+        <a href="https://proxylane.dev/?utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=github_readme_en">ProxyLane</a> provides residential IPs inside mainland China (China Telecom, Unicom, Mobile) for running MediaCrawler from servers outside China, with the exit pinned to Shanghai, Beijing, Guangzhou, Shenzhen or another city. Add <code>_c_CN_city_Shanghai</code> to your proxy username in static mode to get a Shanghai residential IP; see the <a href="docs/proxylane/README_en.md">3-step setup guide</a>. From $2/GB, traffic never expires, and MediaCrawler users get 35% off with code <code>MEDIACRAWLER35</code>. 👉 <a href="https://proxylane.dev/?utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=github_readme_en">Visit ProxyLane</a>
       </td>
     </tr>
   </tbody>

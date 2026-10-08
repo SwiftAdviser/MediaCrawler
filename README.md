@@ -389,22 +389,7 @@ MediaCrawler 支持多种数据存储方式，包括 CSV、JSON、JSONL、Excel�
         <a href="https://proxylane.dev/?utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=github_readme"><img src="docs/static/images/proxylane_banner.png" width="180" alt="ProxyLane"></a>
       </td>
       <td valign="middle">
-        <a href="https://proxylane.dev/?utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=github_readme"><strong>ProxyLane</strong></a> 提供中国住宅 IP（电信、联通、移动），适合在海外服务器或海外网络运行 MediaCrawler。出口可固定到上海、北京、广州、深圳等城市，扫码登录和后续抓取走同一个 IP，每个账号用一个会话名（<code>_s_</code> 后面的部分）。在 <code>config/base_config.py</code> 中设置：
-
-```python
-ENABLE_IP_PROXY = True
-IP_PROXY_PROVIDER_NAME = "static"
-STATIC_PROXY_URL = (
-    "http://USER_c_CN_city_Shanghai_s_xhs01:PASS"
-    "@asia.gw.proxylane.dev:10000"
-)
-# CDP 模式下浏览器登录不走代理
-ENABLE_CDP_MODE = False
-```
-
-🇨🇳 中国住宅 IP 支持城市、ISP、ASN 定向，另覆盖 195 个国家，粘性会话最长 72 小时<br>
-💸 $2/GB 起，流量永不过期，支持银行卡和加密货币<br>
-🔥 MediaCrawler 用户使用优惠码 <code>MEDIACRAWLER35</code> 可享住宅代理 35% 折扣。👉 <a href="https://proxylane.dev/?utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=github_readme">访问 ProxyLane</a>
+        <a href="https://proxylane.dev/?utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=github_readme">ProxyLane</a> 提供中国住宅 IP（电信、联通、移动），适合在海外服务器运行 MediaCrawler，出口可固定到上海、北京、广州、深圳等城市。在 static 模式的代理用户名后加 <code>_c_CN_city_Shanghai</code> 即可使用上海住宅 IP，完整配置见 <a href="docs/proxylane/README.md">3 步接入指南</a>。$2/GB 起，流量永不过期，MediaCrawler 用户使用优惠码 <code>MEDIACRAWLER35</code> 可享 35% 折扣。👉 <a href="https://proxylane.dev/?utm_source=mediacrawler&utm_medium=partnership&utm_campaign=mediacrawler_sponsor_202610&utm_content=github_readme">访问 ProxyLane</a>
       </td>
     </tr>
   </tbody>
