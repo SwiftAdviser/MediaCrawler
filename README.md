@@ -394,8 +394,12 @@ MediaCrawler 支持多种数据存储方式，包括 CSV、JSON、JSONL、Excel�
 ```python
 ENABLE_IP_PROXY = True
 IP_PROXY_PROVIDER_NAME = "static"
-STATIC_PROXY_URL = "http://USER_c_CN_city_Shanghai_s_xhs01:PASS@asia.gw.proxylane.dev:10000"
-ENABLE_CDP_MODE = False  # CDP 模式下浏览器不走代理，登录会用本机 IP
+STATIC_PROXY_URL = (
+    "http://USER_c_CN_city_Shanghai_s_xhs01:PASS"
+    "@asia.gw.proxylane.dev:10000"
+)
+# CDP 模式下浏览器登录不走代理
+ENABLE_CDP_MODE = False
 ```
 
 🇨🇳 中国住宅 IP 支持城市、ISP、ASN 定向，另覆盖 195 个国家，粘性会话最长 72 小时<br>

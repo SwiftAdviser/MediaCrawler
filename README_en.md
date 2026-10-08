@@ -336,8 +336,12 @@ MediaCrawler supports multiple data storage methods, including CSV, JSON, JSONL,
 ```python
 ENABLE_IP_PROXY = True
 IP_PROXY_PROVIDER_NAME = "static"
-STATIC_PROXY_URL = "http://USER_c_CN_city_Shanghai_s_xhs01:PASS@asia.gw.proxylane.dev:10000"
-ENABLE_CDP_MODE = False  # in CDP mode the browser skips the proxy and logs in from your own IP
+STATIC_PROXY_URL = (
+    "http://USER_c_CN_city_Shanghai_s_xhs01:PASS"
+    "@asia.gw.proxylane.dev:10000"
+)
+# in CDP mode the browser login skips the proxy
+ENABLE_CDP_MODE = False
 ```
 
 🇨🇳 China residential IPs with city, ISP and ASN targeting, plus 195 countries, sticky sessions up to 72h<br>
